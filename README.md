@@ -6,13 +6,16 @@
 コマンドプロンプトには、デバッグ情報が表示されます。  
   
 引数に郵便番号を渡せば、郵便番号を尋ねるダイアログが表示されません。  
-毎回同じ郵便番号を使用する場合は、ショートカットに郵便番号を追加してください。  
-例) WXballoon.exe 1000000  
+毎回同じ郵便番号を使用する場合は、ショートカットの引数に郵便番号を追加してください。  
+
+```bat
+WXballoon.exe 1234567
+```
   
 下記のAPIを使用しています。(ご提供ありがとうございます)  
-郵便番号からの住所取得 [postal-code-api](https://github.com/madefor/postal-code-api)  
-郵便番号からの緯度経度取得 [Nominatim](https://nominatim.org/)  
-緯度経度からの天気予報取得 [WeatherAPI.com](https://www.weatherapi.com/) 
+- 郵便番号からの住所取得 [postal-code-api](https://github.com/madefor/postal-code-api)  
+- 郵便番号からの緯度経度取得 [Nominatim](https://nominatim.org/)  
+- 緯度経度からの天気予報取得 [WeatherAPI.com](https://www.weatherapi.com/) 
   
 実行時に、exeと同じ場所にjsonファイルを作成します。 
 郵便番号と緯度経度は30日間、天気情報は1時間の間、キャッシュを参照します。  
