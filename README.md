@@ -21,4 +21,4 @@ WXballoon.exe 1234567
 郵便番号と緯度経度は30日間、天気情報は1時間の間、キャッシュを参照します。  
 新規に取得したい場合は、jsonファイルを削除して実行してください。
   
-[1.0](https://github.com/thrashem/WXballoon/Release/tag/1.0) 新規リリース
+[1.0](https://github.com/thrashem/WXballoon/releases/tag/1.0) 新規リリース
